@@ -36,7 +36,7 @@ const controls = new OrbitControls(camera,renderer.domElement);
 // Helpers
 const loader = new GLTFLoader();
     loader.load(
-      '/bakweriDrum.gltf',
+      'model/bakweriDrum.gltf',
       (gltf) => {
         const model = gltf.scene;
         model.scale.set(10,10,10);
