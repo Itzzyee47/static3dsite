@@ -1,5 +1,3 @@
-import './style.css';
-
 // Setup
 
 const scene = new THREE.Scene();
